@@ -77,10 +77,53 @@
 .main-page .toggler .item img {
     width: 100px;
 }
-.main-page .toggler.deives-panel ul li {
+.main-page .toggler.devices-panel ul li {
     padding: 10px 10px 10px 40px;
     background: #FFFFFF url('../../images/tags.png') no-repeat 0px;
     background-size: 48px;
     width: 120px;
     margin: 2px;
+}
+.main-page .toggler.tags-panel ul.tags li {
+    background: none;
+    position: relative;
+    padding-left: 18px;
+}
+.main-page .toggler.tags-panel ul.tags li:after {
+    content: " ";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: red;
+    position: absolute;
+    left: 0px;
+    top: 7px;
+}
+.main-page .toggler.tags-panel ul.tags li.green:after {
+    background: green;
+}
+.main-page .toggler.tags-panel ul.tags li.yellow:after {
+    background: yellow;
+}
+.main-page .toggler.tags-panel ul.tags li.orange:after {
+    background: orange;
+}
+.main-page .toggler.tags-panel ul.tags li.blue:after {
+    background: blue;
+}
+.main-page .toggler.notes-panel header img {
+    background: #73BCE3;
+    width: 50px;
+}
+.main-page .toggler.notes-panel header .close {
+    color: #333333;
+    top: 7px;
+}
+.main-page .toggler.notes-panel ul {
+    border-top: none;
+}
+.main-page .toggler.notes-panel ul.notes li {
+    padding: 10px 20px;
+    cursor: pointer;
 }

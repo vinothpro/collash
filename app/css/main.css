@@ -115,7 +115,7 @@ ul, li {
 .two-column > div {
     width: 50%;
 }
-.three-column > div {
+.three-column > * {
     width: 33.333333333333%;
 }
 .two-column-flex > div.fixed {

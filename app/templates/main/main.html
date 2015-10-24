@@ -17,6 +17,8 @@
     <footer class="main-footer white-bg clear">
         <div ng-include src="'templates/main/my-trend.html'" ng-if="footerMenu == 'trend'"></div>
         <div ng-include src="'templates/main/devices.html'" ng-if="footerMenu == 'devices'"></div>
+        <div ng-include src="'templates/main/tags.html'" ng-if="footerMenu == 'tags'"></div>
+        <div ng-include src="'templates/main/notes.html'" ng-if="footerMenu == 'notes'"></div>
 
         <ul class="menu clear border-top border-bottom white-bg">
             <li ng-class="footerMenu == 'notes' ? 'border-left border-right small-text trend link left selected app-theme-bg' : 'border-left border-right small-text trend link left'" ng-click="footerMenu = 'notes'"><div>Notes</div></li>
