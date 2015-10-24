@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07cb8f8d-8a69-4093-8ad9-60425fcceb5e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/overlay/collash-device.html" afterPath="$PROJECT_DIR$/app/templates/overlay/collash-device.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/connect/connect-search.html" afterPath="$PROJECT_DIR$/app/templates/connect/connect-search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/overlay/download-overlay.html" afterPath="$PROJECT_DIR$/app/templates/overlay/download-overlay.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/overlay/email-to-device.html" afterPath="$PROJECT_DIR$/app/templates/overlay/email-to-device.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/overlay/overlay.css" afterPath="$PROJECT_DIR$/app/templates/overlay/overlay.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/overlay/text-to-mobile.html" afterPath="$PROJECT_DIR$/app/templates/overlay/text-to-mobile.html" />
-    </list>
+    <list default="true" id="07cb8f8d-8a69-4093-8ad9-60425fcceb5e" name="Default" comment="" />
     <ignored path="collash.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -597,12 +590,12 @@
       <created>1445683168220</created>
       <option name="number" value="Default" />
       <updated>1445683168220</updated>
-      <workItem from="1445683168762" duration="12217000" />
+      <workItem from="1445683168762" duration="12255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12217000" />
+    <option name="totallyTimeSpent" value="12255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
