@@ -1,0 +1,53 @@
+.mask {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.7);
+}
+.mask .overlay {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    margin: auto;
+    max-width: 500px;
+    max-height: 350px;
+    background: rgb(255, 255, 255);
+}
+.mask .overlay .content img.download {
+    width: 200px;
+}
+.mask .overlay .content img.device {
+    width: 260px;
+    margin-top: -35px;
+}
+.mask .overlay .content img.app-store {
+    width: 225px;
+    display: block;
+    margin: auto;
+    margin-top: -37px;
+    margin-left: 145px;
+}
+.mask .text-overlay {
+    max-height: 200px;
+}
+.mask .text-overlay .three-column {
+    padding: 20px;
+    margin-top: 58px;
+}
+.mask .text-overlay .three-column select {
+    width: 20%;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    padding: 12px;
+}
+.mask .text-overlay .three-column input, .mask .text-overlay .three-column button {
+    width: 38%;
+}
+.mask .text-overlay .three-column input {
+    margin: 0 2%;
+}
+

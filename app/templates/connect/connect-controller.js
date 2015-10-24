@@ -1,5 +1,9 @@
 "use strict";
 
 module.controller("ConnectController", ["$scope", function($scope) {
-    $scope.value = "vinoth"
+
+    $scope.closeOverlay = function() {
+        $scope.overlay = "";
+    }
+    $scope.closeOverlay();
 }]);

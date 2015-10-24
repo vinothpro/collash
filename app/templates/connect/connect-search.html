@@ -27,23 +27,27 @@
 
     <div class="device-panel">
         <ul class="v-center t-center">
-            <li class="box"><img src="images/ipad.png" alt="ipad"/><span class="title">iPad</span></li>
-            <li class="box"><img src="images/iphone.png" alt="iphone"/><span class="title">iPhone</span></li>
-            <li class="box"><img src="images/android.png" alt="android"/><span class="title">Android</span></li>
-            <li class="box"><img src="images/blackberry.png" alt="blackberry"/><span class="title">Blackberry</span></li>
-            <li class="box"><img src="images/windows.png" alt="windows"/><span class="title">Windows</span></li>
+            <li class="box" ng-click="overlay = 'device'"><img src="images/ipad.png" alt="ipad"/><span class="title">iPad</span></li>
+            <li class="box" ng-click="overlay = 'device'"><img src="images/iphone.png" alt="iphone"/><span class="title">iPhone</span></li>
+            <li class="box" ng-click="overlay = 'device'"><img src="images/android.png" alt="android"/><span class="title">Android</span></li>
+            <li class="box" ng-click="overlay = 'device'"><img src="images/blackberry.png" alt="blackberry"/><span class="title">Blackberry</span></li>
+            <li class="box" ng-click="overlay = 'device'"><img src="images/windows.png" alt="windows"/><span class="title">Windows</span></li>
         </ul>
     </div>
 
     <div class="contact-me t-center v-center">
-        <button class="round-border">Text to my phone</button>
-        <button class="round-border">Email to my device</button>
+        <button class="round-border" ng-click="overlay = 'text'">Text to my phone</button>
+        <button class="round-border" ng-click="overlay = 'email'">Email to my device</button>
     </div>
 
     <div class="install-panel t-center clear">
         <p class="medium-text">Install collash to your personal computer</p>
-        <button class="install round-border medium-text white-bg">Install</button>
+        <button class="install round-border medium-text white-bg" ng-click="overlay = 'download'">Install</button>
         <button class="install round-border white-bg">Skipt</button>
     </div>
+
+    <div ng-include src="'templates/overlay/download-overlay.html'" ng-if="overlay == 'download'"></div>
+    <div ng-include src="'templates/overlay/collash-device.html'" ng-if="overlay == 'device'"></div>
+    <div ng-include src="'templates/overlay/text-to-mobile.html'" ng-if="overlay == 'text'"></div>
 
 </div>
