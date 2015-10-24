@@ -1,15 +1,15 @@
 <div class="mask"  ng-click="closeOverlay()">
-    <div class="overlay round-border text-overlay">
+    <div class="overlay round-border text-overlay app-theme-light-bg" ng-click="$event.stopPropagation()">
         <div class="content t-center">
             <div class="three-column clear">
-                <select name="pincode" id="pincode" class="round-border box left">
+                <select name="pincode" id="pincode" class="round-border box left white-bg">
                     <option value="+91">+91</option>
                     <option value="+92">+92</option>
                     <option value="+90">+90</option>
                     <option value="+93">+93</option>
                 </select>
-                <input type="mobile" placeholder="Ex: 9192939495" class="round-border box left"/>
-                <button class="round-border box left">Send</button>
+                <input type="mobile" placeholder="Ex: 9192939495" class="round-border box left white-bg"/>
+                <button class="round-border box left white-bg">Send</button>
             </div>
         </div>
     </div>

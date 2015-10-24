@@ -15,7 +15,6 @@
     margin: auto;
     max-width: 500px;
     max-height: 350px;
-    background: rgb(255, 255, 255);
 }
 .mask .overlay .content img.download {
     width: 200px;
@@ -31,12 +30,12 @@
     margin-top: -37px;
     margin-left: 145px;
 }
-.mask .text-overlay {
+.mask .text-overlay, .mask .email-overlay {
     max-height: 200px;
 }
-.mask .text-overlay .three-column {
+.mask .text-overlay .three-column, .mask .email-overlay .two-column {
     padding: 20px;
-    margin-top: 58px;
+    margin-top: 58px !important;
 }
 .mask .text-overlay .three-column select {
     width: 20%;
@@ -49,5 +48,13 @@
 }
 .mask .text-overlay .three-column input {
     margin: 0 2%;
+}
+.mask .email-overlay .two-column {
+    margin: auto;
+    margin-left: 40px;
+}
+.mask .email-overlay .two-column button {
+    width: 30%;
+    margin-left: 30px;
 }
 
