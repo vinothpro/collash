@@ -15,11 +15,12 @@
         </div>
     </section>
     <footer class="main-footer white-bg clear">
+        <div ng-include src="'templates/main/my-trend.html'" ng-if="footerMenu == 'trend'"></div>
         <ul class="menu v-center border-top border-bottom white-bg">
-            <li class="border-right border-left small-text notes"><a href="#/notes">Notes</a></li>
-            <li class="border-right small-text tags"><a href="#/tags">Tags</a></li>
-            <li class="border-right small-text devices"><a href="#/devices">Active Apps and Devices</a></li>
-            <li class="border-right small-text trend"><a href="#/mytrends">My Trends</a></li>
+            <li class="border-right border-left small-text notes link" ng-click="FooterMenuClick('notes')">Notes</li>
+            <li class="border-right small-text tags link" ng-click="FooterMenuClick('tags')">Tags</li>
+            <li class="border-right small-text devices link" ng-click="FooterMenuClick('devices')">Active Apps and Devices</li>
+            <li class="border-right small-text trend link" ng-click="FooterMenuClick('trend')">My Trends</li>
         </ul>
         <ul class="v-center copyright right">
             <li class="border-right border-left small-text"><a href="#/notes">2015 collash</a></li>

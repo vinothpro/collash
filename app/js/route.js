@@ -1,4 +1,4 @@
-var module = angular.module("collash", []);
+var module = angular.module("collash", ['ngResource', 'ngRoute']);
 
 module.config(["$routeProvider", function($routeProvider) {
 

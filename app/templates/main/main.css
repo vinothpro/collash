@@ -52,3 +52,28 @@
     padding-right: 10px;
 }
 
+.main-page .toggler {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 67px;
+    min-height: 175px;
+}
+.main-page .toggler .close {
+    position: absolute;
+    right: 20px;
+    font-size: 30px;
+}
+.main-page .toggler .content-panel {
+    max-width: 975px;
+    margin: 20px auto;
+}
+.main-page .toggler .item {
+    padding: 10px;
+}
+.main-page .toggler .item p {
+    margin: 5px 0px 5px 0px;
+}
+.main-page .toggler .item img {
+    width: 100px;
+}
