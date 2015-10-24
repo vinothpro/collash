@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07cb8f8d-8a69-4093-8ad9-60425fcceb5e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/connect/connect-search.css" afterPath="$PROJECT_DIR$/app/templates/connect/connect-search.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/settings/settings.css" afterPath="$PROJECT_DIR$/app/templates/settings/settings.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/settings/settings.html" afterPath="$PROJECT_DIR$/app/templates/settings/settings.html" />
     </list>
@@ -72,8 +71,8 @@
       <file leaf-file-name="settings.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/settings/settings.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5557084" vertical-offset="803" max-vertical-offset="1632">
-              <caret line="71" column="87" selection-start-line="71" selection-start-column="87" selection-end-line="71" selection-end-column="87" />
+            <state vertical-scroll-proportion="0.2517194" vertical-offset="803" max-vertical-offset="1649">
+              <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -104,8 +103,8 @@
       <file leaf-file-name="settings.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/settings/settings.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="403" max-vertical-offset="1241">
-              <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="488" max-vertical-offset="1292">
+              <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -626,12 +625,12 @@
       <created>1445683168220</created>
       <option name="number" value="Default" />
       <updated>1445683168220</updated>
-      <workItem from="1445683168762" duration="17842000" />
+      <workItem from="1445683168762" duration="18097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17842000" />
+    <option name="totallyTimeSpent" value="18097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -908,16 +907,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/settings/settings.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="403" max-vertical-offset="1241">
-          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="488" max-vertical-offset="1292">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/settings/settings.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5557084" vertical-offset="803" max-vertical-offset="1632">
-          <caret line="71" column="87" selection-start-line="71" selection-start-column="87" selection-end-line="71" selection-end-column="87" />
+        <state vertical-scroll-proportion="0.2517194" vertical-offset="803" max-vertical-offset="1649">
+          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
           <folding>
             <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
