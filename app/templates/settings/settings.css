@@ -1,0 +1,40 @@
+.settings-panel {
+    padding: 30px;
+}
+ul.settings {
+    display: block;
+    padding: 10px 10px 0px 0px;
+}
+ul.settings li {
+    padding: 0px 10px 0px 10px;
+}
+ul.settings li.selected {
+    color: #1A7FDC;
+}
+.settings-panel .user-info-panel .user-info p {
+    margin: 0px;
+}
+.settings-panel .user-info-panel img {
+    width: 140px;
+    height: 140px;
+    margin-right: 20px;
+}
+.settings-panel .contact-me button {
+    margin-left: 20px;
+    max-width: 180px;
+}
+.settings-panel .stores {
+    margin: 30px 30px 30px 8px;
+}
+.settings-panel .stores img {
+    width: 220px;
+    margin: -30px;
+    cursor: pointer;
+}
+.settings-panel .install-panel {
+    padding: 0px 15px;
+}
+.settings-panel .install-panel button {
+    width: 120px;
+    padding: 5px;
+}

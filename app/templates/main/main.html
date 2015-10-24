@@ -2,16 +2,20 @@
     <header class="main-header white-bg clear  gray-text border-bottom">
         <div class="logo-title large-text left">Collash</div>
         <nav class="right small-text">
-            <a href="#/connect" class="border-right">Welcome back, {{userName}}</a>
-            <a href="#/settings" class="border-right">Settings</a>
+            <a href="#/connect" ng-click="userMenu = 'user'"  class="border-right">Welcome back, {{userName}}</a>
+            <a href="" ng-click="userMenu = 'settings'" class="border-right">Settings</a>
             <a href="#/logout">Logout</a>
         </nav>
     </header>
     <section class="main-section">
         <div class="container">
-            <div class="search-bar">
+
+            <div class="search-bar" ng-if="userMenu == 'search'">
                 <div class="v-center"><img src="images/search.png" alt="search"/><input type="text" placeholder="Type Anywhere" class="large-text"/></div>
             </div>
+
+            <div ng-include src="'templates/settings/settings.html'" ng-if="userMenu == 'settings'"></div>
+
         </div>
     </section>
     <footer class="main-footer clear">

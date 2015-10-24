@@ -1,0 +1,41 @@
+<div class="settings-panel white-bg">
+    <p class="large-text">Setting</p>
+    <ul class="settings border-bottom v-center">
+        <li ng-class="tab == 'account' ? 'small-text link selected' : 'small-text link'" ng-click="tab = 'account'">Account</li>
+        <li ng-class="tab == 'accountSettings' ? 'small-text link selected' : 'small-text link'" ng-click="tab = 'accountSettings'">Account Settings</li>
+        <li ng-class="tab == 'data' ? 'small-text link selected' : 'small-text link'" ng-click="tab = 'data'">Data management</li>
+    </ul>
+
+    <div class="tab-detail" ng-if="tab == 'account'">
+        <p class="medium-text">Collash basic account (5GB)</p>
+        <div class="user-info-panel v-center">
+            <div class="user-image">
+                <img src="images/user-image.png" class="circle border" alt="image"/>
+            </div>
+            <div class="user-info">
+                <p class="medium-text">John Doe</p>
+                <p class="small-text">johndoe@gmail.com</p>
+                <p class="small-text underline link">Change Password</p>
+            </div>
+        </div>
+        <div class="user-account-panel">
+            <p class="border-bottom">Get Collash</p>
+            <div class="contact-me v-center">
+                <button class="round-border">Text to my phone</button>
+                <button class="round-border">Email to my device</button>
+            </div>
+            <div class="stores v-center">
+                <img src="images/app-store.png" alt="app store"/>
+                <img src="images/google-play.png" alt="app store"/>
+                <img src="images/blackberry-world.png" alt="app store"/>
+                <img src="images/windows-store.png" alt="app store"/>
+            </div>
+            <div class="install-panel">
+                <p class="small-text">Install Collash on your personal computer</p>
+                <button class="round-border">Install</button>
+            </div>
+        </div>
+    </div>
+    <div class="tab-detail" ng-if="tab == 'accountSettings'">account settings</div>
+    <div class="tab-detail" ng-if="tab == 'data'">data</div>
+</div>

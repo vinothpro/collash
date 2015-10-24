@@ -148,6 +148,9 @@ ul, li {
 .gray-text {
     color: #5B5B5B;
 }
+.underline {
+    text-decoration: underline;
+}
 .v-center > * {
     display: inline-block;
     vertical-align: middle;

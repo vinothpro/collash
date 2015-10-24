@@ -58,6 +58,9 @@
     margin: 100px auto;
     padding: 10px;
 }
+.overlay-panel form input, .overlay-panel form input[type="checkbox"] {
+    margin-top: 3px;
+}
 .overlay-panel form input, .overlay-panel form button {
     background: #FFFFFF;
     margin-top: 20px;

@@ -2,7 +2,8 @@
 
 module.controller("MainController", ["$scope", function($scope) {
     $scope.page = "main";
-    $scope.userName = "John Doe"
+    $scope.userMenu = "search"
+    $scope.tab = "account"
 
     $scope.closeToggler = function() {
         $scope.footerMenu = "";
