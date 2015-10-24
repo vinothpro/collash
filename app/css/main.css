@@ -1,0 +1,150 @@
+html, body {
+    font-family: "Open Sans", "Microsoft YaHei", "Hiragino Sans GB", "Hiragino Sans GB W3", "微软雅黑", "Helvetica Neue", Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    -webkit-font-smoothing: antialiased;
+}
+.small-text {
+    font-size: 14px;
+}
+.medium-text {
+    font-size: 18px;
+}
+.large-text {
+    font-size: 25px;
+}
+.clear:after {
+    content: " ";
+    display: block;
+    clear: both;
+    float: none;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.box, textarea, input, button {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #333333;
+}
+textarea, input, button {
+    border: none;
+    outline: none;
+    width: 100%;
+    background: none;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+}
+input[type="radio"], input[type="checkbox"] {
+    width: 30px;
+    display: inline;
+}
+a {
+    text-decoration: none;
+    color: #333333;
+}
+img {
+    vertical-align: top;
+    width: 100%;
+}
+ul, li {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.link, button, input[type="button"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
+    cursor: pointer;
+}
+.t-center {
+    text-align: center;
+}
+.t-left {
+    text-align: left;
+}
+.border, .round-border {
+    border: 1px solid darkgray;
+}
+.border-transparent {
+    border: 1px solid transparent;
+}
+.border.error {
+    border: 1px solid red !important;
+}
+.border-top {
+    border-top: 1px solid darkgray;
+}
+.border-left {
+    border-left: 1px solid darkgray;
+}
+.border-right {
+    border-right: 1px solid darkgray;
+}
+.border-bottom {
+    border-bottom: 1px solid darkgray;
+}
+.round-border {
+    border-radius: 5px;
+}
+.theme-gray {
+    background-color: #E1E1E1;
+}
+.circle {
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+    border-radius: 500px;
+}
+.container {
+    position: relative;
+}
+
+/* two colum style */
+.two-column > div {
+    width: 50%;
+}
+.three-column > div {
+    width: 33.333333333333%;
+}
+.two-column-flex > div.fixed {
+    width: 250px;
+    position: relative;
+    z-index: 1;
+}
+.two-column-flex > div.flexible {
+    width: 100%;
+    margin-left: -250px;
+}
+.two-column-flex > div.flexible > .wrapper {
+    margin-left: 250px;
+}
+.white-bg {
+    background: #FFFFFF;
+}
+.white-text {
+    color: #FFFFFF;
+}
+.gray-text {
+    color: #5B5B5B;
+}
+.v-center > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+.app-theme-light-bg {
+    background: #F7F7F7;
+}
+.app-theme-bg, .login .login-link, .register .register-link {
+    background: -webkit-gradient(linear, left top, right bottom,
+    color-stop(0%, rgba(79, 178, 225, 0.8)),
+    color-stop(100%, rgba(140, 90, 158, 0.8)));
+}

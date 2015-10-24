@@ -1,0 +1,77 @@
+.home-page .title-panel {
+    padding: 10%;
+}
+.home-page .small-title {
+    font-size: 25px;
+}
+.home-page .big-title {
+    font-size: 2em;
+    color: #638AC3;
+    line-height: 35px;
+}
+.home-page .link-panel li {
+    padding: 15px;
+}
+.home-page .link-panel li:first-child {
+    margin-right: 100px;
+}
+.home-page .video-panel {
+    padding: 5% 0 5% 0;
+}
+.home-page .content-panel {
+    max-width: 700px;
+    padding: 3%;
+    margin: auto;
+}
+.home-page .connect-panel {
+    max-width: 1024px;
+    padding: 20px;
+    margin: auto;
+}
+.home-page .connect-panel > div {
+    padding: 10px;
+}
+.home-page .connect-panel > div img {
+    max-width: 200px;
+}
+.home-page .connect-panel > div .description {
+    font-size: 14px;
+}
+.login .login-link a, .register .register-link a {
+    color: #FFFFFF;
+}
+
+/* login */
+.overlay-panel {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    display: none;
+}
+.login .overlay-panel.login, .register .overlay-panel.register {
+    display: block;
+}
+.overlay-panel .container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 10px;
+}
+.overlay-panel form input, .overlay-panel form button {
+    background: #FFFFFF;
+    margin-top: 20px;
+}
+.overlay-panel form input[type="submit"], .overlay-panel form button {
+    padding: 15px;
+    font-size: 25px;
+}
+.overlay-panel form hr {
+    border: 0px;
+    padding: 1px;
+    background: white;
+    margin: 10px 0px;
+}
+/* ends */
+
+

@@ -1,0 +1,54 @@
+.main-page .main-header {
+    padding: 15px;
+}
+.main-page .main-header nav {
+    margin-top: 17px;
+    margin-right: 100px;
+}
+.main-page .main-header nav a {
+    padding: 0px 10px;
+}
+.main-page .main-section .search-bar {
+    max-width: 400px;
+    margin: 100px auto;
+}
+.main-page .main-section .search-bar img {
+    width: 100px;
+}
+.main-page .main-section .search-bar input {
+    max-width: 320px;
+    margin-left: -30px;
+    margin-top: -5px;
+}
+.main-page .main-footer {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+.main-page .main-footer ul.menu {
+    padding-left: 100px;
+}
+.main-page .main-footer ul.menu li {
+    padding: 10px 10px 10px 40px;
+    background: url('../../images/tags.png') no-repeat 0px;
+    background-size: 48px;
+}
+.main-page .main-footer ul.menu li.trends {
+    background: url('../../images/trend.png') no-repeat 0px;
+    background-size: 48px;
+}
+.main-page .main-footer ul.menu li.notes {
+    background: url('../../images/notes.png') no-repeat 0px;
+    background-size: 48px;
+}
+.main-page .main-footer ul.menu li.devices {
+    background: url('../../images/devices.png') no-repeat 0px;
+    background-size: 48px;
+}
+.main-page .main-footer ul.copyright li {
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
