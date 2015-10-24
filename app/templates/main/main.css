@@ -21,10 +21,13 @@
     margin-top: -5px;
 }
 .main-page .main-footer {
-    /*position: absolute;*/
+    position: absolute;
     bottom: 0px;
     right: 0px;
     left: 0px;
+}
+.main-page.settings .main-footer {
+    position: relative;
 }
 .main-page .main-footer ul.menu {
     padding-left: 100px;

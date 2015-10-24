@@ -15,7 +15,24 @@
             <div class="user-info">
                 <p class="medium-text">John Doe</p>
                 <p class="small-text">johndoe@gmail.com</p>
-                <p class="small-text underline link">Change Password</p>
+                <p class="small-text underline link" ng-click="changePass = true">Change Password</p>
+            </div>
+        </div>
+        <div class="change-pass-panel" ng-if="changePass == true">
+            <div class="row">
+                <p class="small-text">Old Password</p>
+                <input type="password" class="round-border"/>
+            </div>
+            <div class="row">
+                <p class="small-text">New Password</p>
+                <input type="password" class="round-border"/>
+            </div>
+            <div class="row">
+                <p class="small-text">Confirm Password</p>
+                <input type="password" class="round-border"/>
+            </div>
+            <div class="row">
+                <button class="round-border" ng-click="resetPassword()">Submit</button>
             </div>
         </div>
         <div class="user-account-panel">

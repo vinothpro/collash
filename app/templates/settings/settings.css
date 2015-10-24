@@ -38,3 +38,20 @@ ul.settings li.selected {
     width: 120px;
     padding: 5px;
 }
+.settings-panel .change-pass-panel {
+    width: 200px;
+    margin-left: 160px;
+}
+.settings-panel .change-pass-panel .row {
+    padding: 5px 0px;
+}
+.settings-panel .change-pass-panel .row p {
+    margin: 5px;
+}
+.settings-panel .change-pass-panel input {
+    padding: 5px;
+}
+.settings-panel .change-pass-panel button {
+    padding: 5px;
+    margin-top: 10px;
+}
