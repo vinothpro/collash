@@ -2,7 +2,7 @@
     <header class="main-header white-bg clear  gray-text border-bottom">
         <div class="logo-title large-text left">Collash</div>
         <nav class="right small-text">
-            <a href="#/user" class="border-right">Welcome back, {{userName}}</a>
+            <a href="#/connect" class="border-right">Welcome back, {{userName}}</a>
             <a href="#/settings" class="border-right">Settings</a>
             <a href="#/logout">Logout</a>
         </nav>
@@ -14,12 +14,13 @@
             </div>
         </div>
     </section>
-    <footer class="main-footer white-bg clear">
+    <footer class="main-footer clear">
         <div ng-include src="'templates/main/my-trend.html'" ng-if="footerMenu == 'trend'"></div>
         <div ng-include src="'templates/main/devices.html'" ng-if="footerMenu == 'devices'"></div>
         <div ng-include src="'templates/main/tags.html'" ng-if="footerMenu == 'tags'"></div>
         <div ng-include src="'templates/main/notes.html'" ng-if="footerMenu == 'notes'"></div>
 
+        <img src="images/scrolling.png" alt="scroll" class="scroll-image link"/>
         <ul class="menu clear border-top border-bottom white-bg">
             <li ng-class="footerMenu == 'notes' ? 'border-left border-right small-text trend link left selected app-theme-bg' : 'border-left border-right small-text trend link left'" ng-click="footerMenu = 'notes'"><div>Notes</div></li>
             <li ng-class="footerMenu == 'tags' ? 'border-right small-text trend link left selected app-theme-bg' : 'border-right small-text trend link left'" ng-click="footerMenu = 'tags'"><div>Tags</div></li>

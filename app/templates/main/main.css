@@ -127,3 +127,8 @@
     padding: 10px 20px;
     cursor: pointer;
 }
+.main-page .scroll-image {
+    width: 135px;
+    margin: auto;
+    display: block;
+}

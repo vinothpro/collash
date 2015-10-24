@@ -1,0 +1,66 @@
+.connect-page {
+    color: #5b5b5b;
+}
+.connect-page .top-title {
+    padding: 25px;
+}
+.connect-page .top-title p {
+    margin: 0px;
+}
+.connect-page .line-splitter {
+    max-width: 1024px;
+    margin: auto;
+}
+.connect-page .line-splitter .line {
+    width: 40%;
+    margin-top: 12px;
+}
+.connect-page .line-splitter .text {
+    width: 20%;
+}
+.connect-page .accounts-panel ul {
+    padding: 30px;
+}
+.connect-page .accounts-panel ul li {
+    width: 170px;
+    background: #4e69a2;
+    margin: 15px;
+    border: none;
+}
+.connect-page .accounts-panel ul li.twitter {
+    background: #55acee;
+}
+.connect-page .accounts-panel ul li.dropbox {
+    background: #2895F1;
+}
+.connect-page .accounts-panel ul li.drive {
+    background: orange;
+}
+.connect-page .accounts-panel ul li img {
+    width: 100px;
+    margin: 30px auto;
+}
+.connect-page .accounts-panel ul li button {
+    background: bisque;
+    margin: 10px;
+    width: 88%;
+    display: block;
+    border: none;
+}
+.connect-page .device-panel ul li img {
+    max-width: 170px;
+    margin: 10px auto;
+}
+.connect-page .device-panel ul li span {
+    display: block;
+    text-align: center;
+    margin-top: -45px;
+}
+.connect-page .contact-me button {
+    max-width: 180px;
+    margin: 40px;
+}
+.connect-page .install-panel button {
+    max-width: 180px;
+    margin: 20px auto;
+}

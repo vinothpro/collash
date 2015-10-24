@@ -11,6 +11,9 @@ module.config(["$routeProvider", function($routeProvider) {
         }).when("/main", {
             templateUrl: "templates/main/main.html",
             controller: "MainController"
+        }).when("/connect", {
+            templateUrl: "templates/connect/connect-search.html",
+            controller: "ConnectController"
         }).
         otherwise({
             redirectTo: "/home"
