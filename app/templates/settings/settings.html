@@ -53,6 +53,38 @@
             </div>
         </div>
     </div>
-    <div class="tab-detail" ng-if="tab == 'accountSettings'">account settings</div>
+
+    <div class="tab-detail" ng-if="tab == 'accountSettings'">
+        <p class="medium-text">My Accounts</p>
+        <div class="connect-page">
+            <div class="accounts-panel">
+                <ul class="v-center">
+                    <li class="box round-border"><img src="images/windows.png" alt="social media"/><button class="round-border">Connect</button></li>
+                    <li class="box twitter round-border"><img src="images/windows.png" alt="social media"/><button class="round-border">Connect</button></li>
+                    <li class="box dropbox round-border"><img src="images/windows.png" alt="social media"/><button class="round-border">Connect</button></li>
+                    <li class="box drive round-border"><img src="images/windows.png" alt="social media"/><button class="round-border">Connect</button></li>
+                    <li class="box add-new round-border app-theme-light-bg"><p class="e-large-text t-center">+</p><button class="round-border">More</button></li>
+                </ul>
+            </div>
+            <div class="device-panel">
+                <ul class="clear">
+                    <li class="box left" ng-click="overlay = 'device'"><img src="images/ipad.png" alt="ipad">
+                        <span class="title" style="text-align: left; margin-left: 45px;">John's iPad</span>
+                        <div class="details border-bottom">
+                            <p>Device name &nbsp;John's Mac</p>
+                            <p>Last Access &nbsp; 8/22/2015 5.13PM</p>
+                            <p>Status &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Active</p>
+                        </div>
+                    </li>
+                    <li class="box left" ng-click="overlay = 'device'"><img src="images/iphone.png" alt="iphone"><span class="title">John's iPhone</span></li>
+                    <li class="box left" ng-click="overlay = 'device'"><img src="images/android.png" alt="android"><span class="title">John's Android</span></li>
+                    <li class="box left" ng-click="overlay = 'device'"><img src="images/blackberry.png" alt="blackberry"><span class="title">John's Blackberry</span></li>
+                    <li class="box left" ng-click="overlay = 'device'"><img src="images/windows.png" alt="windows"><span class="title">John's Windows</span></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
     <div class="tab-detail" ng-if="tab == 'data'">data</div>
 </div>

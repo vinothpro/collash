@@ -55,3 +55,13 @@ ul.settings li.selected {
     padding: 5px;
     margin-top: 10px;
 }
+.settings-panel .device-panel li span {
+    font-size: 14px;
+}
+.settings-panel .device-panel li p {
+    font-size: 13px;
+    margin: 0px;
+}
+.settings-panel .details {
+    padding: 10px;
+}
