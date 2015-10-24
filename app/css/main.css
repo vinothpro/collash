@@ -70,6 +70,9 @@ ul, li {
 .t-left {
     text-align: left;
 }
+.t-right {
+    text-align: right;
+}
 .border, .round-border {
     border: 1px solid darkgray;
 }
@@ -130,7 +133,7 @@ ul, li {
 .white-bg {
     background: #FFFFFF;
 }
-.white-text {
+.white-text, .app-theme-bg.selected {
     color: #FFFFFF;
 }
 .gray-text {

@@ -77,3 +77,10 @@
 .main-page .toggler .item img {
     width: 100px;
 }
+.main-page .toggler.deives-panel ul li {
+    padding: 10px 10px 10px 40px;
+    background: #FFFFFF url('../../images/tags.png') no-repeat 0px;
+    background-size: 48px;
+    width: 120px;
+    margin: 2px;
+}
