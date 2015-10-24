@@ -143,7 +143,7 @@ ul, li {
 .app-theme-light-bg {
     background: #F7F7F7;
 }
-.app-theme-bg, .login .login-link, .register .register-link {
+.app-theme-bg {
     background: -webkit-gradient(linear, left top, right bottom,
     color-stop(0%, rgba(79, 178, 225, 0.8)),
     color-stop(100%, rgba(140, 90, 158, 0.8)));

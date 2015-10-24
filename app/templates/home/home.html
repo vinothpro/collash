@@ -11,8 +11,8 @@
 
     <div class="link-panel border-top border-bottom white-bg clear">
         <ul class="links border-left clear right">
-            <li class="login-link border-right right"><a href="" ng-click="navigatePage('login')">Login</a></li>
-            <li class="register-link border-right right"><a href="" ng-click="navigatePage('register')">Create Account</a></li>
+            <li ng-class="page == 'login' ? 'login-link border-right right selected app-theme-bg' : 'login-link border-right right'"><a href="" ng-click="navigatePage('login')">Login</a></li>
+            <li ng-class="page == 'register' ? 'register-link border-right right selected app-theme-bg' : 'register-link border-right right'"><a href="" ng-click="navigatePage('register')">Create Account</a></li>
         </ul>
     </div>
 

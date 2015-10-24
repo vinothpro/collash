@@ -29,20 +29,20 @@
 .main-page .main-footer ul.menu {
     padding-left: 100px;
 }
-.main-page .main-footer ul.menu li {
+.main-page .main-footer ul.menu li div {
     padding: 10px 10px 10px 40px;
     background: url('../../images/tags.png') no-repeat 0px;
     background-size: 48px;
 }
-.main-page .main-footer ul.menu li.trends {
+.main-page .main-footer ul.menu li.trends div {
     background: url('../../images/trend.png') no-repeat 0px;
     background-size: 48px;
 }
-.main-page .main-footer ul.menu li.notes {
+.main-page .main-footer ul.menu li.notes div {
     background: url('../../images/notes.png') no-repeat 0px;
     background-size: 48px;
 }
-.main-page .main-footer ul.menu li.devices {
+.main-page .main-footer ul.menu li.devices div {
     background: url('../../images/devices.png') no-repeat 0px;
     background-size: 48px;
 }

@@ -16,11 +16,12 @@
     </section>
     <footer class="main-footer white-bg clear">
         <div ng-include src="'templates/main/my-trend.html'" ng-if="footerMenu == 'trend'"></div>
-        <ul class="menu v-center border-top border-bottom white-bg">
-            <li class="border-right border-left small-text notes link" ng-click="FooterMenuClick('notes')">Notes</li>
-            <li class="border-right small-text tags link" ng-click="FooterMenuClick('tags')">Tags</li>
-            <li class="border-right small-text devices link" ng-click="FooterMenuClick('devices')">Active Apps and Devices</li>
-            <li class="border-right small-text trend link" ng-click="FooterMenuClick('trend')">My Trends</li>
+
+        <ul class="menu clear border-top border-bottom white-bg">
+            <li ng-class="footerMenu == 'notes' ? 'border-left border-right small-text trend link left selected app-theme-bg' : 'border-left border-right small-text trend link left'" ng-click="footerMenu = 'notes'"><div>Notes</div></li>
+            <li ng-class="footerMenu == 'tags' ? 'border-right small-text trend link left selected app-theme-bg' : 'border-right small-text trend link left'" ng-click="footerMenu = 'tags'"><div>Tags</div></li>
+            <li ng-class="footerMenu == 'devices' ? 'border-right small-text trend link left selected app-theme-bg' : 'border-right small-text trend link left'" ng-click="footerMenu = 'devices'"><div>Active Apps and Devices</div></li>
+            <li ng-class="footerMenu == 'trend' ? 'border-right small-text trend link left selected app-theme-bg' : 'border-right small-text trend link left'" ng-click="footerMenu = 'trend'"><div>My Trends</div></li>
         </ul>
         <ul class="v-center copyright right">
             <li class="border-right border-left small-text"><a href="#/notes">2015 collash</a></li>
