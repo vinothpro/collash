@@ -7,6 +7,7 @@ module.controller("MainController", ["$scope", function($scope) {
     $scope.changePass = false;
     $scope.tab = "account";
     $scope.searchText = "";
+    $scope.cardView = false;
 
     $scope.closeToggler = function() {
         $scope.footerMenu = "";

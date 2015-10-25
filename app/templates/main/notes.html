@@ -1,49 +1,57 @@
-<div class="toggler app-theme-bg notes-panel">
+<div class="toggler notes-panel">
     <div class="container">
         <header class="clear white-bg border-top">
-            <img src="images/notes.png" alt="notes" class="left app-theme-bg">
+            <img src="images/notes.png" alt="notes" ng-class="cardView ? 'left app-theme-bg' : 'left'" ng-click="cardView = !cardView">
+            <img src="images/voice.png" alt="notes" class="left">
             <span class="white-text right close link" ng-click="closeToggler()">X</span>
         </header>
         <section>
-                <ul class="list notes white-text three-column clear border">
-                    <li class="left border-top border-right box">
-                        <p class="medium-text">This is my test title</p>
-                        <p class="small-text">This is my test description about the card. This is my test description about the card</p>
-                    </li>
-                    <li class="left border-top border-right box white-bg">
-                        <p class="medium-text">This is my test title</p>
-                        <p class="small-text">This is my test description about the card. This is my test description about the card</p>
-                    </li>
-                    <li class="left border-top border-right box">
-                        <p class="medium-text">This is my test title</p>
-                        <p class="small-text">This is my test description about the card. This is my test description about the card</p>
-                    </li>
-                    <li class="left border-top border-right box">
-                        <p class="medium-text">This is my test title</p>
-                        <p class="small-text">This is my test description about the card. This is my test description about the card</p>
-                    </li>
-                    <li class="left border-top border-right box">
-                        <p class="medium-text">This is my test title</p>
-                        <p class="small-text">This is my test description about the card. This is my test description about the card</p>
-                    </li>
-                    <li class="left border-top border-right box">
-                        <p class="medium-text">This is my test title</p>
-                        <p class="small-text">This is my test description about the card. This is my test description about the card</p>
-                    </li>
-                    <li class="left border-top border-right box">
-                        <p class="medium-text">This is my test title</p>
-                        <p class="small-text">This is my test description about the card. This is my test description about the card</p>
-                    </li>
-                    <li class="left border-top border-right box">
-                        <p class="medium-text">This is my test title</p>
-                        <p class="small-text">This is my test description about the card. This is my test description about the card</p>
-                    </li>
-                    <li class="left border-top border-right box">
-                        <p class="medium-text">This is my test title</p>
-                        <p class="small-text">This is my test description about the card. This is my test description about the card</p>
-                    </li>
+            <div class="container editor-panel white-bg" ng-if="!cardView">
+                <img src="images/editor.png" alt="editor" class="editor-img"/>
+                <div class="editor box border">
+                    <input type="text" placeholder="Title" class="border-bottom"/>
+                    <textarea name="content" id="content" cols="30" rows="20" placeholder="Drag files here or just typing"></textarea>
+                </div>
+            </div>
+            <ul class="list notes app-theme-bg white-text three-column clear border" ng-if="cardView">
+                <li class="left border-top border-right box">
+                    <p class="medium-text">This is my test title</p>
+                    <p class="small-text">This is my test description about the card. This is my test description about the card</p>
+                </li>
+                <li class="left border-top border-right box white-bg">
+                    <p class="medium-text">This is my test title</p>
+                    <p class="small-text">This is my test description about the card. This is my test description about the card</p>
+                </li>
+                <li class="left border-top border-right box">
+                    <p class="medium-text">This is my test title</p>
+                    <p class="small-text">This is my test description about the card. This is my test description about the card</p>
+                </li>
+                <li class="left border-top border-right box">
+                    <p class="medium-text">This is my test title</p>
+                    <p class="small-text">This is my test description about the card. This is my test description about the card</p>
+                </li>
+                <li class="left border-top border-right box">
+                    <p class="medium-text">This is my test title</p>
+                    <p class="small-text">This is my test description about the card. This is my test description about the card</p>
+                </li>
+                <li class="left border-top border-right box">
+                    <p class="medium-text">This is my test title</p>
+                    <p class="small-text">This is my test description about the card. This is my test description about the card</p>
+                </li>
+                <li class="left border-top border-right box">
+                    <p class="medium-text">This is my test title</p>
+                    <p class="small-text">This is my test description about the card. This is my test description about the card</p>
+                </li>
+                <li class="left border-top border-right box">
+                    <p class="medium-text">This is my test title</p>
+                    <p class="small-text">This is my test description about the card. This is my test description about the card</p>
+                </li>
+                <li class="left border-top border-right box">
+                    <p class="medium-text">This is my test title</p>
+                    <p class="small-text">This is my test description about the card. This is my test description about the card</p>
+                </li>
 
-                </ul>
+            </ul>
         </section>
     </div>
 </div>

@@ -157,8 +157,8 @@
     background: blue;
 }
 .main-page .toggler.notes-panel header img {
-    background: #73BCE3;
     width: 50px;
+    margin-left: 30px;
 }
 .main-page .toggler.notes-panel header .close {
     color: #333333;
@@ -230,4 +230,18 @@
 }
 .search-result .colors li.yellow {
     background: yellow;
+}
+.container.editor-panel {
+    padding: 20px;
+}
+.editor {
+    margin: 20px;
+    padding: 20px;
+}
+.editor input {
+    max-width: 400px;
+}
+.editor-img {
+    max-width: 620px;
+    margin: -35px -65px -65px 0px;
 }
