@@ -107,16 +107,16 @@
     background-size: 65px;
 }
 .main-page .toggler.devices-panel ul li.fb {
-    background: #FFFFFF url('../../images/fb.png') no-repeat 7px;
-    background-size: 30px;
+    background: #FFFFFF url('../../images/fb1.png') no-repeat 7px;
+    background-size: 15px;
 }.main-page .toggler.devices-panel ul li.twitter {
-    background: #FFFFFF url('../../images/twitter.png') no-repeat 7px;
+    background: #FFFFFF url('../../images/twitter1.png') no-repeat 7px;
     background-size: 30px;
 }.main-page .toggler.devices-panel ul li.dropbox {
-    background: #FFFFFF url('../../images/dropbox.png') no-repeat 7px;
+    background: #FFFFFF url('../../images/dropbox1.png') no-repeat 7px;
     background-size: 30px;
 }.main-page .toggler.devices-panel ul li.drive {
-    background: #FFFFFF url('../../images/drive.png') no-repeat 7px;
+    background: #FFFFFF url('../../images/drive1.png') no-repeat 7px;
     background-size: 30px;
 }
 .main-page .toggler.devices-panel ul li input[type="checkbox"] {

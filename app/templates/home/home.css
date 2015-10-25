@@ -8,6 +8,7 @@
 }
 .landing-fixed-header .home-page {
     padding-top: 54px;
+    opacity: 0;
 }
 .no-scroll {
     overflow: hidden;
