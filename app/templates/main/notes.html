@@ -1,19 +1,20 @@
 <div class="toggler notes-panel">
     <div class="container">
-        <header class="clear white-bg border-top">
-            <img src="images/notes.png" alt="notes" ng-class="cardView ? 'left app-theme-bg' : 'left'" ng-click="cardView = !cardView">
+        <header class="clear white-bg border-top clear">
+            <img src="images/notes.png" alt="notes" ng-class="cardView ? 'left' : 'left'">
             <img src="images/voice.png" alt="notes" class="left">
-            <span class="white-text right close link" ng-click="closeToggler()">X</span>
+            <img src="images/editor.png" alt="editor" class="editor-img"/>
+            <span class="right small-text save-alert">Saved</span>
+            <span class="white-text right close link gray-text" ng-click="closeToggler()">X</span>
         </header>
         <section>
             <div class="container editor-panel white-bg" ng-if="!cardView">
-                <img src="images/editor.png" alt="editor" class="editor-img"/>
                 <div class="editor box border">
-                    <input type="text" placeholder="Title" class="border-bottom"/>
-                    <textarea name="content" id="content" cols="30" rows="20" placeholder="Drag files here or just typing"></textarea>
+                    <input type="text" placeholder="Title" class="border-bottom large-text gray-text"/>
+                    <textarea name="content" id="content" cols="30" rows="24" placeholder="Drag files here or just typing"></textarea>
                 </div>
             </div>
-            <ul class="list notes app-theme-bg white-text three-column clear border" ng-if="cardView">
+            <ul class="list notes app-theme-bg white-text three-column clear border" ng-if="cardView" style="display: none;">
                 <li class="left border-top border-right box">
                     <p class="medium-text">This is my test title</p>
                     <p class="small-text">This is my test description about the card. This is my test description about the card</p>

@@ -70,7 +70,7 @@
 }
 .main-page .toggler .close {
     position: absolute;
-    right: 20px;
+    right: 44px;
     font-size: 30px;
 }
 .main-page .toggler .content-panel {
@@ -158,6 +158,16 @@
 }
 .main-page .toggler.notes-panel header img {
     width: 50px;
+}
+.main-page .toggler.notes-panel header .save-alert {
+    margin-right: 80px;
+    margin-top: 14px;
+    display: block;
+    width: 100px;
+    background: url('../../images/saved.png') no-repeat 35px;
+    background-size: 50px;
+}
+.main-page .toggler.notes-panel header img:first-child {
     margin-left: 30px;
 }
 .main-page .toggler.notes-panel header .close {
@@ -237,11 +247,12 @@
 .editor {
     margin: 20px;
     padding: 20px;
+    margin-top: -10px;
 }
 .editor input {
     max-width: 400px;
 }
 .editor-img {
-    max-width: 620px;
-    margin: -35px -65px -65px 0px;
+    width: 620px !important;
+    margin: -18px 0px -23px 0px;
 }
