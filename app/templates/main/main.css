@@ -86,9 +86,44 @@
 .main-page .toggler .item img {
     width: 100px;
 }
+.main-page .toggler.devices-panel ul li.android {
+    background: #FFFFFF url('../../images/android.png') no-repeat -16px;
+    background-size: 65px;
+}
+.main-page .toggler.devices-panel ul li.ipad {
+    background: #FFFFFF url('../../images/ipad.png') no-repeat -16px;
+    background-size: 65px;
+}
+.main-page .toggler.devices-panel ul li.iphone {
+    background: #FFFFFF url('../../images/iphone.png') no-repeat -16px;
+    background-size: 65px;
+}
+.main-page .toggler.devices-panel ul li.windows {
+    background: #FFFFFF url('../../images/windows.png') no-repeat -16px;
+    background-size: 65px;
+}
+.main-page .toggler.devices-panel ul li.blackberry {
+    background: #FFFFFF url('../../images/blackberry.png') no-repeat -16px;
+    background-size: 65px;
+}
+.main-page .toggler.devices-panel ul li.fb {
+    background: #FFFFFF url('../../images/fb.png') no-repeat 7px;
+    background-size: 30px;
+}.main-page .toggler.devices-panel ul li.twitter {
+    background: #FFFFFF url('../../images/twitter.png') no-repeat 7px;
+    background-size: 30px;
+}.main-page .toggler.devices-panel ul li.dropbox {
+    background: #FFFFFF url('../../images/dropbox.png') no-repeat 7px;
+    background-size: 30px;
+}.main-page .toggler.devices-panel ul li.drive {
+    background: #FFFFFF url('../../images/drive.png') no-repeat 7px;
+    background-size: 30px;
+}
+.main-page .toggler.devices-panel ul li input[type="checkbox"] {
+    width: 20px;
+}
 .main-page .toggler.devices-panel ul li {
     padding: 10px 10px 10px 40px;
-    background: #FFFFFF url('../../images/tags.png') no-repeat 0px;
     background-size: 48px;
     width: 120px;
     margin: 2px;

@@ -58,6 +58,12 @@
     margin: 100px auto;
     padding: 10px;
 }
+.overlay-panel.register {
+    bottom: 56px;
+}
+.overlay-panel.register .container {
+    margin: auto;
+}
 .overlay-panel form input, .overlay-panel form input[type="checkbox"] {
     margin-top: 3px;
 }
@@ -66,7 +72,11 @@
     margin-top: 20px;
 }
 .overlay-panel form input[type="submit"], .overlay-panel form button {
+    padding: 0px;
+}
+.overlay-panel form input[type="submit"], .overlay-panel form button a {
     padding: 15px;
+    display: block;
     font-size: 25px;
 }
 .overlay-panel form hr {

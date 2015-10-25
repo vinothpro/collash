@@ -1,25 +1,28 @@
 <div class="home-page app-theme-light-bg {{page}}">
 
-    <div class="banner two-column v-center">
-        <div class="title-panel box">
-            <p class="small-title">Collash</p>
-            <p class="big-title">Future is more personal Search too.</p>
-        </div><div class="banner-panel box t-center">
+    <div class="container">
+        <div class="banner two-column v-center">
+            <div class="title-panel box">
+                <p class="small-title">Collash</p>
+                <p class="big-title">Future is more personal Search too.</p>
+            </div><div class="banner-panel box t-center">
             <img src="images/banner.png" alt=""/>
         </div>
-    </div>
+        </div>
 
-    <div class="link-panel border-top border-bottom white-bg clear">
-        <ul class="links border-left clear right">
-            <li ng-class="page == 'login' ? 'login-link border-right right selected app-theme-bg' : 'login-link border-right right'"><a href="" ng-click="navigatePage('login')">Login</a></li>
-            <li ng-class="page == 'register' ? 'register-link border-right right selected app-theme-bg' : 'register-link border-right right'"><a href="" ng-click="navigatePage('register')">Create Account</a></li>
-        </ul>
+        <div ng-include src="'../app/templates/register/register.html'"></div>
+
+        <div class="link-panel border-top border-bottom white-bg clear">
+            <ul class="links border-left clear right">
+                <li ng-class="page == 'login' ? 'login-link border-right right selected app-theme-bg' : 'login-link border-right right'"><a href="" ng-click="navigatePage('login')">Login</a></li>
+                <li ng-class="page == 'register' ? 'register-link border-right right selected app-theme-bg' : 'register-link border-right right'"><a href="" ng-click="navigatePage('register')">Create Account</a></li>
+            </ul>
+        </div>
     </div>
 
     <div class="container">
 
         <div ng-include src="'../app/templates/login/login.html'"></div>
-        <div ng-include src="'../app/templates/register/register.html'"></div>
 
         <div class="banner two-column v-center">
             <div class="title-panel box">

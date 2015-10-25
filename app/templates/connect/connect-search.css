@@ -23,25 +23,31 @@
 }
 .connect-page .accounts-panel ul li {
     width: 170px;
-    background: #4e69a2;
+    /*background: #4e69a2;*/
+    background: #3765A3;
     margin: 15px;
     border: none;
 }
 .connect-page .accounts-panel ul li.twitter {
-    background: #55acee;
+    background: #28A9E2;
+}
+.connect-page .accounts-panel ul li.twitter img {
+    margin: 40px 54px;
 }
 .connect-page .accounts-panel ul li.dropbox {
-    background: #2895F1;
+    /*background: #2895F1;*/
+    background: #FFE000;
 }
 .connect-page .accounts-panel ul li.drive {
     background: orange;
 }
 .connect-page .accounts-panel ul li img {
-    width: 100px;
-    margin: 10px auto;
+    width: 50px;
+    margin: 30px 54px;
+    display: block;
 }
 .connect-page .accounts-panel ul li button {
-    background: bisque;
+    background: #C4E9FF;
     margin: 10px;
     width: 88%;
     display: block;

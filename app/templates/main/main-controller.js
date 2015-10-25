@@ -2,6 +2,7 @@
 
 module.controller("MainController", ["$scope", function($scope) {
     $scope.page = "main";
+    $scope.userName = "John";
     $scope.userMenu = "search";
     $scope.changePass = false;
     $scope.tab = "account";

@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07cb8f8d-8a69-4093-8ad9-60425fcceb5e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/twitter.jpeg" afterPath="$PROJECT_DIR$/app/images/twitter.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/connect/connect-search.css" afterPath="$PROJECT_DIR$/app/templates/connect/connect-search.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/connect/connect-search.html" afterPath="$PROJECT_DIR$/app/templates/connect/connect-search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/main/devices.html" afterPath="$PROJECT_DIR$/app/templates/main/devices.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/home/home.css" afterPath="$PROJECT_DIR$/app/templates/home/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/home/home.html" afterPath="$PROJECT_DIR$/app/templates/home/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/main/main-controller.js" afterPath="$PROJECT_DIR$/app/templates/main/main-controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/main/main.css" afterPath="$PROJECT_DIR$/app/templates/main/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/main/main.html" afterPath="$PROJECT_DIR$/app/templates/main/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/settings/settings.css" afterPath="$PROJECT_DIR$/app/templates/settings/settings.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/settings/settings.html" afterPath="$PROJECT_DIR$/app/templates/settings/settings.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="collash.iws" />
@@ -31,31 +36,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/home/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1139">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-controller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/main/main-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.090066224" vertical-offset="0" max-vertical-offset="755">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/home/home.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1632">
+              <caret line="77" column="15" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/main/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1972">
+              <caret line="4" column="107" selection-start-line="4" selection-start-column="99" selection-end-line="4" selection-end-column="107" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="devices.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/main/devices.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="595">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/main/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.148148" vertical-offset="2638" max-vertical-offset="3451">
-              <caret line="184" column="15" selection-start-line="184" selection-start-column="15" selection-end-line="184" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1795" max-vertical-offset="4046">
+              <caret line="122" column="15" selection-start-line="122" selection-start-column="15" selection-end-line="122" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/templates/main/main.html">
+      <file leaf-file-name="connect-search.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/connect/connect-search.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37311384" vertical-offset="595" max-vertical-offset="1972">
-              <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="1479">
+              <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/settings/settings.css">
+      <file leaf-file-name="connect-search.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/connect/connect-search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1030" max-vertical-offset="1785">
-              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state vertical-scroll-proportion="-29.423077" vertical-offset="0" max-vertical-offset="1020">
+              <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connect-controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/connect/connect-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,29 +137,29 @@
         <option value="$PROJECT_DIR$/app/libs/js/angular.js" />
         <option value="$PROJECT_DIR$/app/libs/js/angular-resource.js" />
         <option value="$PROJECT_DIR$/app/libs/js/angular-route.js" />
-        <option value="$PROJECT_DIR$/app/templates/home/home.html" />
         <option value="$PROJECT_DIR$/app/templates/main/my-trend.html" />
-        <option value="$PROJECT_DIR$/app/templates/main/devices.html" />
         <option value="$PROJECT_DIR$/app/templates/main/tags.html" />
         <option value="$PROJECT_DIR$/app/templates/main/notes.html" />
         <option value="$PROJECT_DIR$/app/js/route.js" />
         <option value="$PROJECT_DIR$/app/templates/connect/connect-controller.js" />
-        <option value="$PROJECT_DIR$/app/templates/connect/connect-search.html" />
         <option value="$PROJECT_DIR$/app/templates/overlay/overlay.css" />
         <option value="$PROJECT_DIR$/app/templates/overlay/text-to-mobile.html" />
         <option value="$PROJECT_DIR$/app/templates/overlay/download-overlay.html" />
         <option value="$PROJECT_DIR$/app/templates/overlay/collash-device.html" />
         <option value="$PROJECT_DIR$/app/templates/overlay/email-to-device.html" />
-        <option value="$PROJECT_DIR$/app/templates/home/home.css" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/css/main.css" />
-        <option value="$PROJECT_DIR$/app/templates/connect/connect-search.css" />
         <option value="$PROJECT_DIR$/app/templates/settings/data-management.html" />
-        <option value="$PROJECT_DIR$/app/templates/settings/settings.html" />
-        <option value="$PROJECT_DIR$/app/templates/main/main-controller.js" />
         <option value="$PROJECT_DIR$/app/templates/settings/settings.css" />
-        <option value="$PROJECT_DIR$/app/templates/main/main.css" />
         <option value="$PROJECT_DIR$/app/templates/main/main.html" />
+        <option value="$PROJECT_DIR$/app/templates/settings/settings.html" />
+        <option value="$PROJECT_DIR$/app/templates/home/home.html" />
+        <option value="$PROJECT_DIR$/app/templates/home/home.css" />
+        <option value="$PROJECT_DIR$/app/templates/main/devices.html" />
+        <option value="$PROJECT_DIR$/app/templates/main/main.css" />
+        <option value="$PROJECT_DIR$/app/templates/connect/connect-search.css" />
+        <option value="$PROJECT_DIR$/app/templates/connect/connect-search.html" />
+        <option value="$PROJECT_DIR$/app/templates/main/main-controller.js" />
       </list>
     </option>
   </component>
@@ -161,28 +226,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="settings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -527,12 +570,12 @@
       <updated>1445683168220</updated>
       <workItem from="1445683168762" duration="18097000" />
       <workItem from="1445709932353" duration="13000" />
-      <workItem from="1445743052492" duration="4778000" />
+      <workItem from="1445743052492" duration="6785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22888000" />
+    <option name="totallyTimeSpent" value="24895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -782,13 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/main/devices.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="595">
-          <caret line="0" column="46" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/main/tags.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="357">
@@ -807,13 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33864543" vertical-offset="0" max-vertical-offset="753">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.303989" vertical-offset="17" max-vertical-offset="1088">
-          <caret line="14" column="139" selection-start-line="14" selection-start-column="139" selection-end-line="14" selection-end-column="139" />
         </state>
       </provider>
     </entry>
@@ -845,20 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/connect/connect-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20318726" vertical-offset="0" max-vertical-offset="753">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6998672" vertical-offset="510" max-vertical-offset="1462">
-          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/overlay/download-overlay.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.023383768" vertical-offset="0" max-vertical-offset="727">
@@ -874,44 +889,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/connect/connect-search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09053498" vertical-offset="291" max-vertical-offset="1020">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/connect/connect-search.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9523179" vertical-offset="522" max-vertical-offset="1377">
-          <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/settings/settings.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37037036" vertical-offset="1753" max-vertical-offset="3366">
-          <caret line="119" column="67" selection-start-line="119" selection-start-column="67" selection-end-line="119" selection-end-column="67" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11659808" vertical-offset="0" max-vertical-offset="729">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/main/main-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -924,18 +905,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/settings/settings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6296296" vertical-offset="714" max-vertical-offset="3434">
+          <caret line="69" column="172" selection-start-line="69" selection-start-column="172" selection-end-line="69" selection-end-column="172" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1139">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/home/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1632">
+          <caret line="77" column="15" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/main/devices.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="595">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/main/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.148148" vertical-offset="2638" max-vertical-offset="3451">
-          <caret line="184" column="15" selection-start-line="184" selection-start-column="15" selection-end-line="184" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1795" max-vertical-offset="4046">
+          <caret line="122" column="15" selection-start-line="122" selection-start-column="15" selection-end-line="122" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/connect/connect-search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="1479">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/connect/connect-search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.423077" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/connect/connect-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/main/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37311384" vertical-offset="595" max-vertical-offset="1972">
-          <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1972">
+          <caret line="4" column="107" selection-start-line="4" selection-start-column="99" selection-end-line="4" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/main/main-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.090066224" vertical-offset="0" max-vertical-offset="755">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding />
         </state>
       </provider>
