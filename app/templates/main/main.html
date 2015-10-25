@@ -10,8 +10,78 @@
     <section class="main-section">
         <div class="container">
 
-            <div class="search-bar" ng-if="userMenu == 'search'">
-                <div class="v-center"><img src="images/search.png" alt="search"/><input type="text" placeholder="Type Anywhere" class="large-text"/></div>
+            <div ng-class="searchText ? 'search-bar focused' : 'search-bar'" ng-if="userMenu == 'search'">
+                <div class="v-center"><img src="images/search.png" alt="search"/><input type="text" placeholder="Type Anywhere" ng-model="searchText" class="large-text"/></div>
+
+                <div ng-if="searchText" class="search-result two-column clear box">
+                    <div class="left box">
+                        <ul class="results">
+                            <li class="result v-center box white-bg">
+                                <img src="images/drive.png" alt="result" class="logo"/>
+                                <span>Lorum Ipsum is simply dummy</span>
+                                <div class="clear">
+                                    <img src="images/android.png" alt="android"/>
+                                    <img src="images/iphone.png" alt="android"/>
+                                    <img src="images/windows.png" alt="android"/>
+                                </div>
+                            </li>
+                            <li class="result v-center box white-bg">
+                                <img src="images/fb.png" alt="result" class="logo"/>
+                                <span>Lorum Ipsum is simply Superb</span>
+                                <div class="clear">
+                                    <img src="images/iphone.png" alt="android"/>
+                                    <img src="images/windows.png" alt="android"/>
+                                </div>
+                            </li>
+                            <li class="result v-center box white-bg">
+                                <img src="images/twitter.jpeg" alt="result" class="logo"/>
+                                <span>Test result</span>
+                                <div class="clear">
+                                    <img src="images/android.png" alt="android"/>
+                                    <img src="images/windows.png" alt="android"/>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="left border-left box">
+                        <div class="result">
+                            <div class="wrapper border-bottom">
+                                <img src="images/passport.jpeg" alt="passport" class="result-image"/>
+                            </div>
+                            <p class="small-text">Lorum Ipsum is simply dummy</p>
+                            <ul class="colors v-center t-center">
+                                <li class="red"></li>
+                                <li class="orange"></li>
+                                <li class="yellow"></li>
+                                <li class="blue"></li>
+                                <li class="green"></li>
+                            </ul>
+                            <ul class="result-details">
+                                <li class="clear two-column">
+                                    <div class="left small-text t-left">Type</div>
+                                    <div class="right small-text t-right">Image</div>
+                                </li>
+                                <li class="clear two-column">
+                                    <div class="left small-text t-left">Size</div>
+                                    <div class="right small-text t-right">3.14 MB</div>
+                                </li>
+                                <li class="clear two-column">
+                                    <div class="left small-text t-left">Created</div>
+                                    <div class="right small-text t-right">Aug 18, 2015</div>
+                                </li>
+                                <li class="clear two-column">
+                                    <div class="left small-text t-left">Location</div>
+                                    <div class="right small-text t-right">John's Mac</div>
+                                </li>
+                            </ul>
+
+                            <ul class="share clear border-bottom border-top box two-column">
+                                <li class="download border-right t-right left small-text box">Download</li>
+                                <li class="share t-left left box small-text">Share</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div ng-include src="'templates/settings/settings.html'" ng-if="userMenu == 'settings'"></div>
@@ -31,7 +101,7 @@
             <li ng-class="footerMenu == 'devices' ? 'border-right small-text trend link left selected app-theme-bg' : 'border-right small-text trend link left'" ng-click="footerMenu = 'devices'"><div>Active Apps and Devices</div></li>
             <li ng-class="footerMenu == 'trend' ? 'border-right small-text trend link left selected app-theme-bg' : 'border-right small-text trend link left'" ng-click="footerMenu = 'trend'"><div>My Trends</div></li>
         </ul>
-        <ul class="v-center copyright right">
+        <ul class="v-center copyright app-theme-light-bg right">
             <li class="border-right border-left small-text"><a href="#/notes">2015 collash</a></li>
             <li class="border-right small-text"><a href="#/tags">Privacy Policy</a></li>
             <li class="border-right small-text"><a href="#/devices">Terms and Conditions</a></li>

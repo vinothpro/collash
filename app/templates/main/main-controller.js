@@ -5,6 +5,7 @@ module.controller("MainController", ["$scope", function($scope) {
     $scope.userMenu = "search";
     $scope.changePass = false;
     $scope.tab = "account";
+    $scope.searchText = "";
 
     $scope.closeToggler = function() {
         $scope.footerMenu = "";
