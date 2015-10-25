@@ -185,6 +185,12 @@
     width: 135px;
     margin: auto;
     display: block;
+    position: fixed;
+    bottom: 70px;
+    left: 0;
+    right: 0;
+    -webkit-transition: transform 300ms linear;
+    -webkit-transform: rotate(180deg);
 }
 
 /* search results */
@@ -255,4 +261,7 @@
 .editor-img {
     width: 620px !important;
     margin: -18px 0px -23px 0px;
+}
+.main-page .scroll-image.rotate180 {
+    -webkit-transform: rotate(0deg);
 }

@@ -8,6 +8,11 @@ module.controller("MainController", ["$scope", function($scope) {
     $scope.tab = "account";
     $scope.searchText = "";
     $scope.cardView = false;
+    $scope.mouse = false;
+
+    $scope.navigateMenu = function(menu) {
+        $scope.menu = menu;
+    }
 
     $scope.closeToggler = function() {
         $scope.menu = "search";
@@ -17,5 +22,13 @@ module.controller("MainController", ["$scope", function($scope) {
         $scope.changePass = false;
     }
 
+    $scope.showMenu = function() {
+        $scope.mouse = !$scope.mouse;
+    }
+
     $scope.closeToggler();
+
+    $scope.$watch('menu', function() {
+        console.log($scope.menu)
+    });
 }]);

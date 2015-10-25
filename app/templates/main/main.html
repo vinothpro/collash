@@ -1,15 +1,16 @@
-<div class="main-page app-theme-light-bg {{userMenu}}">
-    <header class="main-header white-bg clear  gray-text border-bottom">
+<div class="main-page app-theme-light-bg {{userMenu}} {{menu}}">
+    <div class="logo-title large-text gray-text" ng-if="!mouse" style="padding: 18px 50px;font-size: 30px;">Collash</div>
+    <header ng-if="mouse" class="main-header white-bg clear  gray-text border-bottom">
         <div class="logo-title large-text left">Collash</div>
         <nav class="right small-text">
-            <a href="#/connect" ng-click="menu = 'user'"  class="border-right">Welcome back, {{userName}}</a>
-            <a href="" ng-click="menu = 'settings'" class="border-right">Settings</a>
+            <a href="" ng-click="navigateMenu('user')"  class="border-right">Welcome back, {{userName}}</a>
+            <a href="" ng-click="navigateMenu('settings')" class="border-right">Settings</a>
             <a href="#/logout">Logout</a>
         </nav>
     </header>
+
     <section class="main-section">
         <div class="container">
-
             <div ng-class="searchText ? 'search-bar focused' : 'search-bar'" ng-if="menu == 'search'">
                 <div class="v-center"><img src="images/search.png" alt="search"/><input type="text" placeholder="Type Anywhere" ng-model="searchText" class="large-text"/></div>
 
@@ -83,25 +84,25 @@
                     </div>
                 </div>
             </div>
-
             <div ng-include src="'templates/settings/settings.html'" ng-if="menu == 'settings'"></div>
-
         </div>
     </section>
-    <footer class="main-footer clear">
+
+    <img src="images/scrolling.png" alt="scroll" ng-class="mouse ? 'rotate180 scroll-image link' : 'scroll-image link'" ng-if="menu == 'search'" ng-click="showMenu()"/>
+
+    <footer ng-if="mouse" class="main-footer clear">
 
         <div ng-include src="'templates/main/my-trend.html'" ng-if="menu == 'trend'"></div>
         <div ng-include src="'templates/main/devices.html'" ng-if="menu == 'devices'"></div>
         <div ng-include src="'templates/main/tags.html'" ng-if="menu == 'tags'"></div>
         <div ng-include src="'templates/main/notes.html'" ng-if="menu == 'notes'"></div>
 
-        <img src="images/scrolling.png" alt="scroll" class="scroll-image link" ng-if="menu == 'search'"/>
 
         <ul class="menu clear border-top border-bottom white-bg">
-            <li ng-class="menu == 'notes' ? 'border-left border-right small-text trend link left selected app-theme-bg' : 'border-left border-right small-text trend link left'" ng-click="menu = 'notes'"><div>Notes</div></li>
-            <li ng-class="menu == 'tags' ? 'border-right small-text trend link left selected app-theme-bg' : 'border-right small-text trend link left'" ng-click="menu = 'tags'"><div>Tags</div></li>
-            <li ng-class="menu == 'devices' ? 'border-right small-text trend link left selected app-theme-bg' : 'border-right small-text trend link left'" ng-click="menu = 'devices'"><div>Active Apps and Devices</div></li>
-            <li ng-class="menu == 'trend' ? 'border-right small-text trend link left selected app-theme-bg' : 'border-right small-text trend link left'" ng-click="menu = 'trend'"><div>My Trends</div></li>
+            <li ng-class="menu == 'notes' ? 'border-left border-right small-text trend link left selected app-theme-bg' : 'border-left border-right small-text trend link left'" ng-click="navigateMenu('notes')"><div>Notes</div></li>
+            <li ng-class="menu == 'tags' ? 'border-right small-text trend link left selected app-theme-bg' : 'border-right small-text trend link left'" ng-click="navigateMenu('tags')"><div>Tags</div></li>
+            <li ng-class="menu == 'devices' ? 'border-right small-text trend link left selected app-theme-bg' : 'border-right small-text trend link left'" ng-click="navigateMenu('devices')"><div>Active Apps and Devices</div></li>
+            <li ng-class="menu == 'trend' ? 'border-right small-text trend link left selected app-theme-bg' : 'border-right small-text trend link left'" ng-click="navigateMenu('trend')"><div>My Trends</div></li>
         </ul>
         <ul class="v-center copyright app-theme-light-bg right">
             <li class="border-right border-left small-text"><a href="#/notes">2015 collash</a></li>
