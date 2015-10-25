@@ -8,7 +8,9 @@ module.controller("MainController", ["$scope", function($scope) {
     $scope.tab = "account";
     $scope.searchText = "";
     $scope.cardView = false;
+    $scope.plus = false;
     $scope.mouse = false;
+
 
     $scope.navigateMenu = function(menu) {
         $scope.menu = menu;

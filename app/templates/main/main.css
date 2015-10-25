@@ -187,7 +187,7 @@
     display: block;
     position: fixed;
     bottom: 70px;
-    left: 0;
+    left: -75px;
     right: 0;
     -webkit-transition: transform 300ms linear;
     -webkit-transform: rotate(180deg);
@@ -200,6 +200,7 @@
 }
 .results li {
     padding: 2px;
+    list-style-type: square;
 }
 .results li img.logo {
     width: 20px !important;
@@ -264,4 +265,7 @@
 }
 .main-page .scroll-image.rotate180 {
     -webkit-transform: rotate(0deg);
+}
+.none {
+    display: none;
 }

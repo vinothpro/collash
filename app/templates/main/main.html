@@ -3,9 +3,10 @@
     <header ng-if="mouse" class="main-header white-bg clear  gray-text border-bottom">
         <div class="logo-title large-text left">Collash</div>
         <nav class="right small-text">
-            <a href="" ng-click="navigateMenu('user')"  class="border-right">Welcome back, {{userName}}</a>
-            <a href="" ng-click="navigateMenu('settings')" class="border-right">Settings</a>
-            <a href="#/logout">Logout</a>
+            <a href="" ng-click="navigateMenu('user')">Welcome back, {{userName}}</a>
+            <a href="" ng-click="plus = !plus" ng-class="plus ? 'none' : ''">+</a>
+            <a href="" ng-if="plus" ng-click="navigateMenu('settings')" class="border-left">Settings</a>
+            <a href="#/logout" ng-if="plus" class="border-left">Logout</a>
         </nav>
     </header>
 
@@ -18,7 +19,7 @@
                     <div class="left box">
                         <ul class="results">
                             <li class="result v-center box white-bg">
-                                <img src="images/drive.png" alt="result" class="logo"/>
+                                <img src="images/video1.png" alt="result" class="logo"/>
                                 <span>Lorum Ipsum is simply dummy</span>
                                 <div class="clear">
                                     <img src="images/android.png" alt="android"/>
@@ -27,7 +28,7 @@
                                 </div>
                             </li>
                             <li class="result v-center box white-bg">
-                                <img src="images/fb.png" alt="result" class="logo"/>
+                                <img src="images/video1.png" alt="result" class="logo"/>
                                 <span>Lorum Ipsum is simply Superb</span>
                                 <div class="clear">
                                     <img src="images/iphone.png" alt="android"/>
@@ -35,7 +36,7 @@
                                 </div>
                             </li>
                             <li class="result v-center box white-bg">
-                                <img src="images/twitter.jpeg" alt="result" class="logo"/>
+                                <img src="images/video1.png" alt="result" class="logo"/>
                                 <span>Test result</span>
                                 <div class="clear">
                                     <img src="images/android.png" alt="android"/>
@@ -88,7 +89,7 @@
         </div>
     </section>
 
-    <img src="images/scrolling.png" alt="scroll" ng-class="mouse ? 'rotate180 scroll-image link' : 'scroll-image link'" ng-if="menu == 'search'" ng-click="showMenu()"/>
+    <img src="images/scrolling.png" alt="scroll" ng-class="mouse ? 'rotate180 scroll-image link app' : 'scroll-image link'" ng-if="menu == 'search'" ng-click="showMenu()"/>
 
     <footer ng-if="mouse" class="main-footer clear">
 
