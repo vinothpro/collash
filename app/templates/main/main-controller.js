@@ -10,6 +10,7 @@ module.controller("MainController", ["$scope", function($scope) {
     $scope.cardView = false;
     $scope.plus = false;
     $scope.mouse = false;
+    $scope.overlay = "";
 
 
     $scope.navigateMenu = function(menu) {
@@ -18,6 +19,10 @@ module.controller("MainController", ["$scope", function($scope) {
 
     $scope.closeToggler = function() {
         $scope.menu = "search";
+    }
+
+    $scope.closeOverlay = function() {
+        $scope.overlay = "";
     }
 
     $scope.resetPassword = function() {
@@ -32,5 +37,8 @@ module.controller("MainController", ["$scope", function($scope) {
 
     $scope.$watch('menu', function() {
         console.log($scope.menu)
+    });
+    $scope.$watch('overlay', function(oldValue, newValue) {
+        console.log(oldValue, newValue)
     });
 }]);
