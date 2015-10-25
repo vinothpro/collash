@@ -68,3 +68,31 @@ ul.settings li.selected {
 .settings-panel .connect-page > div > p  {
     margin-left: 16px;
 }
+.settings-panel .data .slider  {
+    height: 10px;
+    border-radius: 0px 3px 3px 0px;
+    width: 30%;
+}
+.settings-panel .data .accounts .usage img  {
+    width: 30px;
+}
+.settings-panel .data .devices .usage img  {
+    width: 100px;
+    margin: -35px;
+}
+.settings-panel .data .devices > p  {
+    padding-left: 20px;
+}
+.settings-panel .data .usage-list li {
+    padding: 10px;
+}
+.settings-panel .data li.usage > div  {
+    width: 50%;
+    margin-left: 20px;
+}
+.settings-panel .data .data-usage .small-text, .settings-panel .data .usage .small-text {
+    font-size: 12px;
+}
+.settings-panel .data .usage-panel ul  {
+    padding: 1em;
+}
