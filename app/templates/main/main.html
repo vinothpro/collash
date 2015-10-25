@@ -89,12 +89,13 @@
         </div>
     </section>
     <footer class="main-footer clear">
+
         <div ng-include src="'templates/main/my-trend.html'" ng-if="footerMenu == 'trend'"></div>
         <div ng-include src="'templates/main/devices.html'" ng-if="footerMenu == 'devices'"></div>
         <div ng-include src="'templates/main/tags.html'" ng-if="footerMenu == 'tags'"></div>
         <div ng-include src="'templates/main/notes.html'" ng-if="footerMenu == 'notes'"></div>
 
-        <img src="images/scrolling.png" alt="scroll" class="scroll-image link"/>
+        <img src="images/scrolling.png" alt="scroll" class="scroll-image link" ng-if="userMenu == 'search'"/>
         <ul class="menu clear border-top border-bottom white-bg">
             <li ng-class="footerMenu == 'notes' ? 'border-left border-right small-text trend link left selected app-theme-bg' : 'border-left border-right small-text trend link left'" ng-click="footerMenu = 'notes'"><div>Notes</div></li>
             <li ng-class="footerMenu == 'tags' ? 'border-right small-text trend link left selected app-theme-bg' : 'border-right small-text trend link left'" ng-click="footerMenu = 'tags'"><div>Tags</div></li>

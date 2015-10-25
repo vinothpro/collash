@@ -1,4 +1,4 @@
-<div class="settings-panel white-bg">
+<div class="settings-panel white-bg gray-text">
     <p class="large-text">Setting</p>
     <ul class="settings border-bottom v-center">
         <li ng-class="tab == 'account' ? 'small-text link selected' : 'small-text link'" ng-click="tab = 'account'">Account</li>
@@ -59,12 +59,7 @@
             <div class="accounts-panel border-bottom">
                 <p class="medium-text">My Accounts</p>
                 <ul class="v-center">
-                    <!--<li class="box round-border"><img src="images/windows.png" alt="social media"/><button class="round-border">Connect</button></li>-->
-                    <!--<li class="box twitter round-border"><img src="images/windows.png" alt="social media"/><button class="round-border">Connect</button></li>-->
-                    <!--<li class="box dropbox round-border"><img src="images/windows.png" alt="social media"/><button class="round-border">Connect</button></li>-->
-                    <!--<li class="box drive round-border"><img src="images/windows.png" alt="social media"/><button class="round-border">Connect</button></li>-->
-                    <!--<li class="box add-new round-border app-theme-light-bg"><p class="e-large-text t-center">+</p><button class="round-border">More</button></li>-->
-                    <li class="box round-border"><img src="images/fb.png" alt="social media" class="circle"/><button class="round-border">Connect</button></li>
+                    <li class="box round-border"><img src="images/fb.png" alt="social media" class="circle"/><button class="round-border">Disconnect</button></li>
                     <li class="box twitter round-border"><img src="images/twitter.jpg" alt="social media" class="circle"/><button class="round-border">Connect</button></li>
                     <li class="box dropbox round-border"><img src="images/drive.png" alt="social media" class="circle"/><button class="round-border">Connect</button></li>
                     <li class="box twitter round-border"><img src="images/twitter.jpg" alt="social media" class="circle"/><button class="round-border">Connect</button></li>
@@ -101,12 +96,12 @@
             <div class="right small-text">3.21 GB available</div>
         </div>
         <div class="usage-panel box clear two-column">
-            <div class="left box accounts border-right">
+            <div class="left box accounts">
                 <p class="small-text">My Accounts</p>
                 <ul class="usage-list">
                     <li class="usage v-center border-bottom">
                         <input type="checkbox"/>
-                        <img src="images/fb.png" alt="fb"/>
+                        <img src="images/fb1.png" alt="fb" style="height: 30px; width: 20px; padding: 5px;">
                         <div>
                             <div class="usage-bar border">
                                 <div class="slider app-theme-bg"></div>
@@ -116,7 +111,7 @@
                     </li>
                     <li class="usage v-center border-bottom">
                         <input type="checkbox"/>
-                        <img src="images/twitter.jpeg" alt="fb"/>
+                        <img src="images/twitter1.png" alt="fb"/>
                         <div>
                             <div class="usage-bar border">
                                 <div class="slider app-theme-bg"></div>
@@ -126,7 +121,7 @@
                     </li>
                     <li class="usage v-center border-bottom">
                         <input type="checkbox"/>
-                        <img src="images/dropbox.png" alt="fb"/>
+                        <img src="images/dropbox1.png" alt="fb"/>
                         <div>
                             <div class="usage-bar border">
                                 <div class="slider app-theme-bg"></div>
@@ -136,7 +131,7 @@
                     </li>
                     <li class="usage v-center border-bottom">
                         <input type="checkbox"/>
-                        <img src="images/drive.png" alt="fb"/>
+                        <img src="images/drive1.png" alt="fb"/>
                         <div>
                             <div class="usage-bar border">
                                 <div class="slider app-theme-bg"></div>
@@ -146,7 +141,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="left box devices">
+            <div class="left box devices border-left">
                 <p class="small-text">My Devices</p>
                 <ul class="usage-list">
                     <li class="usage v-center border-bottom">
