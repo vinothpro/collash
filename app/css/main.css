@@ -6,6 +6,9 @@ html, body {
     font-weight: 100;
     -webkit-font-smoothing: antialiased;
 }
+.mini-text {
+    font-size: 12px;
+}
 .small-text {
     font-size: 14px;
 }
@@ -146,7 +149,7 @@ ul, li {
     color: #FFFFFF;
 }
 .gray-text {
-    color: #5B5B5B;
+    color: #5a5a5a;;
 }
 .underline {
     text-decoration: underline;
@@ -162,4 +165,21 @@ ul, li {
     background: -webkit-gradient(linear, left top, right bottom,
     color-stop(0%, rgba(79, 178, 225, 0.8)),
     color-stop(100%, rgba(140, 90, 158, 0.8)));
+}
+.floating {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.facebook a, .gmail a {
+    color: white;
+}
+.facebook {
+    background: #3a5795 !important;
+}
+.gmail {
+    background: #f44336 !important;
 }

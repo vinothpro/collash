@@ -3,8 +3,8 @@
     <div class="container">
         <div class="banner two-column v-center">
             <div class="title-panel box">
-                <p class="small-title">Collash</p>
-                <p class="big-title">Future is more personal Search too.</p>
+                <p class="small-title gray-text">Collash</p>
+                <p class="big-title">Future is more personal. Search too.</p>
             </div><div class="banner-panel box t-center">
             <img src="images/banner.png" alt=""/>
         </div>
@@ -12,21 +12,23 @@
 
         <div ng-include src="'../app/templates/register/register.html'"></div>
 
-        <div class="link-panel border-top border-bottom white-bg clear">
-            <ul class="links border-left clear right">
-                <li ng-class="page == 'login' ? 'login-link border-right right selected app-theme-bg' : 'login-link border-right right'"><a href="" ng-click="navigatePage('login')">Login</a></li>
-                <li ng-class="page == 'register' ? 'register-link border-right right selected app-theme-bg' : 'register-link border-right right'"><a href="" ng-click="navigatePage('register')">Create Account</a></li>
-            </ul>
+        <div class="fixed-header">
+            <div class="link-panel border-top border-bottom white-bg clear">
+                <ul class="links border-left clear right">
+                    <li ng-class="page == 'login' ? 'login-link border-right right selected app-theme-bg' : 'login-link border-right right'"><a href="" ng-click="navigatePage('login')">Login</a></li>
+                    <li ng-class="page == 'register' ? 'register-link border-right right selected app-theme-bg' : 'register-link border-right right'"><a href="" ng-click="navigatePage('register')">Create Account</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 
-    <div class="container">
+    <div class="container white-bg">
 
         <div ng-include src="'../app/templates/login/login.html'"></div>
 
-        <div class="banner two-column v-center">
+        <div class="banner-bottom two-column v-center">
             <div class="title-panel box">
-                <p class="description">With Collash, you can search your personal data from allover your digital assets
+                <p class="description small-text gray-text">With Collash, you can search your personal data from allover your digital assets
                     scattered across devices and accounts. We are inventing the future of search. and now, search is more personalized.Yes, this is
                     exactly what you were looking for.</p>
             </div><div class="video-panel box t-center">
@@ -36,24 +38,24 @@
 
         <div class="content-panel t-center">
             <p class="small-title">Being the future of search,</p>
-            <p class="description">Collash stays away from the conventional search and how the results are displayed for the users. Here is where you get the files stored in any of your devides or social media - fast and efficient.</p>
+            <p class="description small-text">Collash stays away from the conventional search and how the results are displayed for the users. Here is where you get the files stored in any of your devides or social media - fast and efficient.</p>
         </div>
 
-        <div class="connect-panel three-column clear">
+        <div class="connect-panel three-column app-theme-light-bg clear border-bottom">
             <div class="connect left box t-center">
                 <p class="title">Anything</p>
                 <img src="images/anything.png" alt="anything"/>
-                <p class="description">Collash stays away from the conventional search and how the results are displayed for the users. Here is where you get the files stored in any of your devides or social media - fast and efficient.</p>
+                <p class="description small-text">Collash stays away from the conventional search and how the results are displayed for the users. Here is where you get the files stored in any of your devides or social media - fast and efficient.</p>
             </div>
             <div class="connect left box t-center">
                 <p class="title">Anytime</p>
                 <img src="images/anytime.png" alt="anything"/>
-                <p class="description">Everything is connected and safe - all the time. Search and find your data even at the most urgent times, whenever you want.</p>
+                <p class="description small-text">Everything is connected and safe - all the time. Search and find your data even at the most urgent times, whenever you want.</p>
             </div>
             <div class="connect left box t-center">
                 <p class="title">Everywhere</p>
                 <img src="images/everywhere.png" alt="anything"/>
-                <p class="description">Search from anywhere in the world. Your personal data are at your fingertip-no matter where your devices are.</p>
+                <p class="description small-text">Search from anywhere in the world. Your personal data are at your fingertip-no matter where your devices are.</p>
             </div>
         </div>
 

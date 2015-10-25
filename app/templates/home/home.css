@@ -1,13 +1,38 @@
-.home-page .title-panel {
-    padding: 10%;
+.landing-fixed-header .link-panel {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 54px;
+    z-index: 2;
+}
+.landing-fixed-header .home-page {
+    padding-top: 54px;
+}
+.no-scroll {
+    overflow: hidden;
 }
 .home-page .small-title {
     font-size: 25px;
+    margin: 0px;
+}
+.home-page .banner .title-panel {
+    width: 27%;
+}
+.home-page .banner .banner-panel {
+    width: 69%;
+}
+.home-page .title-panel p {
+    margin-left: 80px;
+}
+.home-page .title-panel p.description {
+    margin: 8em;
 }
 .home-page .big-title {
     font-size: 2em;
     color: #638AC3;
     line-height: 35px;
+    margin: 30px;
 }
 .home-page .link-panel li {
     padding: 15px;
@@ -32,7 +57,7 @@
     padding: 10px;
 }
 .home-page .connect-panel > div img {
-    max-width: 200px;
+    max-width: 100px;
 }
 .home-page .connect-panel > div .description {
     font-size: 14px;
@@ -53,31 +78,38 @@
 .login .overlay-panel.login, .register .overlay-panel.register {
     display: block;
 }
+.overlay-panel.register .container {
+    margin: 2em auto;
+}
 .overlay-panel .container {
-    max-width: 400px;
-    margin: 100px auto;
-    padding: 10px;
+    max-width: 250px;
+    margin: auto;
 }
 .overlay-panel.register {
     bottom: 56px;
 }
-.overlay-panel.register .container {
-    margin: auto;
-}
+
 .overlay-panel form input, .overlay-panel form input[type="checkbox"] {
     margin-top: 3px;
 }
 .overlay-panel form input, .overlay-panel form button {
     background: #FFFFFF;
+    margin-top: 5px;
+    padding: 5px;
+}
+.login form button.first {
     margin-top: 20px;
 }
 .overlay-panel form input[type="submit"], .overlay-panel form button {
     padding: 0px;
 }
 .overlay-panel form input[type="submit"], .overlay-panel form button a {
-    padding: 15px;
+    padding: 8px;
     display: block;
-    font-size: 25px;
+    font-size: 16px;
+}
+.overlay-panel form label {
+    font-size: 12px;
 }
 .overlay-panel form hr {
     border: 0px;
@@ -86,5 +118,22 @@
     margin: 10px 0px;
 }
 /* ends */
+.login .floating {
+    top: 100px
+}
+.register .floating {
+    width: 250px;
+    height: 400px;
+}
+.splitter hr {
+    width: 40%;
+    padding: 0px !important;
+    height: 1px;
+}
+.splitter span {
+    padding: 0px 5px;
+    margin-top: -3px;
+    color: white;
+}
 
 
